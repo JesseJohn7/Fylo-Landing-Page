@@ -1,0 +1,286 @@
+@media (max-width: 1485px) {
+  html {
+    font-size: 60%;
+  }
+  .input_email {
+    width: 38rem;
+  }
+  .sign-up-btn {
+    width: 19rem;
+  }
+}
+@media (max-width: 1330px) {
+  html {
+    font-size: 58%;
+  }
+  .input_email {
+    width: 34rem;
+  }
+  .sign-up-btn {
+    width: 17rem;
+  }
+}
+
+@media (max-width: 1155px) {
+  html {
+    font-size: 56%;
+  }
+  .input_email {
+    width: 32rem;
+  }
+  .sign-up-btn {
+    width: 15rem;
+    font-size: 1.2rem;
+  }
+  .services {
+    column-gap: 20rem;
+  }
+  .how-it-works-container {
+    gap: 5rem;
+  }
+  .testimonials-container {
+    column-gap: 5rem;
+  }
+  .sign-up-text-body {
+    width: 52rem;
+  }
+}
+@media (max-width: 1050px) {
+  html {
+    font-size: 54%;
+  }
+  .sign-up-container {
+    width: 60%;
+  }
+  .input_email {
+    width: 34rem;
+  }
+  .sign-up-btn {
+    width: 17rem;
+    font-size: 1.2rem;
+  }
+  .footer-items {
+    grid-gap: 2.5rem;
+  }
+  .logo {
+    width: 15rem;
+  }
+  .service-body-text {
+    font-size: 1.4rem;
+  }
+  .hero-body-text {
+    font-size: 1.6rem;
+  }
+  .testimonial-text-header {
+    font-size: 1.4rem;
+  }
+  .how-it-works-img img {
+    height: 36rem;
+    width: 46rem;
+  }
+  .testimonial {
+    padding: 2rem;
+  }
+}
+@media (max-width: 920px) {
+  html {
+    font-size: 52%;
+  }
+  /* .service-img img {
+    width: 80px;
+    height: 72.067px;
+  } */
+  .how-it-works-img img {
+    height: 32rem;
+    width: 42rem;
+  }
+  .footer-items {
+    grid-template-columns: 1fr 1fr 100px 100px 1fr;
+  }
+  .sign-up-container {
+    width: 70%;
+  }
+}
+@media (max-width: 804px) {
+  html {
+    font-size: 50%;
+  }
+  .how-it-works-text-body-1,
+  .how-it-works-text-body-2 {
+    width: 40rem;
+  }
+  .footer-items {
+    grid-gap: 1rem;
+  }
+  .services {
+    column-gap: 10rem;
+  }
+}
+@media (max-width: 730px) {
+  html {
+    font-size: 60%;
+  }
+  .services {
+    grid-template-columns: 1fr;
+  }
+  .how-it-works-container {
+    flex-direction: column;
+    margin-bottom: 15rem;
+  }
+  .testimonials-container {
+    /* grid-template-columns: 40rem;
+    justify-content: center;
+    row-gap: 4rem; */
+    display: block;
+    margin: 0 auto 8rem;
+    width: 80%;
+    position: relative;
+  }
+  .testimonial {
+    padding: 3rem 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 10px #202a3c;
+  }
+  .img-quotes {
+    position: absolute;
+    top: -23px;
+    left: 10px;
+    z-index: -1;
+    width: 10%;
+  }
+  .testimonial-img img {
+  }
+  .sign-up-container {
+    width: 80%;
+  }
+  .sign-up-form {
+    flex-direction: column;
+  }
+  .input_email {
+    height: 2.5rem;
+    border-radius: 5rem;
+  }
+  .sign-up-form div {
+    width: 100%;
+  }
+  .sign-up-text-body {
+    width: 36rem;
+    text-align: left;
+  }
+  .sign-up-btn {
+    width: 100%;
+    font-size: 1.7rem;
+    height: 5rem;
+    border-radius: 5rem;
+  }
+  .footer-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .footer-items {
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+  }
+  .footer-item-5 {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 632px) {
+  html {
+    font-size: 58%;
+  }
+  .nav-bar {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .hero-action-btn {
+    width: 30rem;
+    height: 6rem;
+    font-size: 1.8rem;
+    border-radius: 3.2rem;
+  }
+  .hero-main-text {
+    font-size: 3rem;
+  }
+  .nav-links {
+    gap: 3rem;
+  }
+  .curve-desktop {
+    display: none;
+  }
+  .curve-mobile {
+    display: block;
+    margin-top: -35%;
+  }
+}
+
+@media (max-width: 504px) {
+  .nav-links a {
+    font-size: 1.4rem;
+  }
+  .logo {
+    width: 12rem;
+  }
+  .hero-main-text {
+    font-size: 3rem;
+    width: 43rem;
+    line-height: 4rem;
+  }
+  .hero-img img {
+    height: 30rem;
+  }
+  .hero-container {
+    margin-top: 3rem;
+  }
+  .hero-body-text {
+    font-size: 1.5rem;
+    width: 40rem;
+    line-height: 2.5rem;
+  }
+  .input_email {
+    width: 27rem;
+  }
+  .sign-up-text-body {
+    width: 30rem;
+    text-align: center;
+  }
+  .how-it-works-text-header {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 394px) {
+  .how-it-works-text-body-1,
+  .how-it-works-text-body-2 {
+    font-size: 1.4rem;
+    width: 34rem;
+  }
+  .nav-bar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .nav-links {
+    gap: 2rem;
+  }
+  .input_email {
+    width: 22rem;
+  }
+  .sign-up-btn {
+    font-size: 1.4rem;
+  }
+
+  .how-it-works-text-container {
+    align-items: center;
+  }
+  .how-it-works-img img {
+    height: 24rem;
+    width: 34rem;
+  }
+  .how-it-works-text-header {
+    text-align: center;
+  }
+  .hero-img img {
+    height: 26rem;
+  }
+}
